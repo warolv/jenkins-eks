@@ -45,7 +45,7 @@ In Continuous Integration after a code commit, the software is built and tested 
 
 https://www.guru99.com/jenkin-continuous-integration.html
 
-![pr-process](images/2.png)
+![pr-process](images/2.jpg)
 
 ### Why do we need CI?
 
