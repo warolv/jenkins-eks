@@ -113,3 +113,15 @@ In AWS account go to Services -> CloudFormation -> Stacks, you must see
 
 ![ci-cd-future](images/vpc/8.png)
 
+
+## Conclusion
+
+In this post I tried to explain how to create VPC for EKS cluster, different options and considerations you must take in account before actually doing it, like creating the VPC first or create the VPC as a part of EKS cluster creation with 'eksctl' utility, use private/public subnets only or combination of both, how to make EKS cluster resilient and eventually I showed you how to create the cluster using the 'awscli' and CloudFormation template from AWS.
+
+If you want to be notified when the next post of this tutorial is published, 
+please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
+
+My personal blog in which I will post this tutorial also: http://igorzhivilo.com
+
+Thank you for reading, I hope you enjoyed, see you in next post.
+
