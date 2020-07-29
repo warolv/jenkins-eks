@@ -6,6 +6,23 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 
 You can read the introduction part of this tutorial [Introduction](https://github.com/warolv/jenkins-eks/blob/master/README.md) which explains in detail what I am going to build in this tutorial.
 
+## What is Amazon VPC?
+
+Amazon Virtual Private Cloud (Amazon VPC) enables you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
+
+[AWS VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+
+## Amazon VPC concepts
+
+Subnet - A range of IP addresses in your VPC.
+
+Route table - A set of rules, called routes, that are used to determine where network traffic is directed.
+
+Internet gateway - A gateway that you attach to your VPC to enable communication between resources in your VPC and the internet.
+
+VPC endpoint - Enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by PrivateLink without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
+
+[VPC concepts](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html)
 
 ## Two options for creating VPC for EKS cluster
 
