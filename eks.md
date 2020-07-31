@@ -137,24 +137,24 @@ nodeGroups:
 
 Replace first you subnet ids in config file, In AWS account go to Services -> VPC -> Subnets
 
-![ci-cd-future](images/eks/2.png)
+![ci-cd-future](images/eks/3.png)
 
 ``` yaml
 eksctl create cluster -f eks-cluster.yaml
 ```
 
-![ci-cd-future](images/eks/3.png)
-
 ![ci-cd-future](images/eks/4.png)
+
+![ci-cd-future](images/eks/5.png)
 
 Ok, we see now ci-cd-cluster, ‘ng-on-demand’ and ‘ng-spot’ autoscaling groups created, ‘eks-vpc’ we created in the previous post.
 
-![ci-cd-future](images/eks/5.png)
+![ci-cd-future](images/eks/6.png)
 
 Let’s check that we have one provisioned instance up and running for ‘ng-on-demand’ node group:
 
 
-![ci-cd-future](images/eks/6.png)
+![ci-cd-future](images/eks/7.png)
 
 From the log I see “/Users/igorzhivilo/.kube/config” created
 
@@ -164,7 +164,7 @@ From the log I see “/Users/igorzhivilo/.kube/config” created
 kubectl get nodes
 ```
 
-![ci-cd-future](images/eks/7.png)
+![ci-cd-future](images/eks/8.png)
 
 Great, everything works as expected!
 
