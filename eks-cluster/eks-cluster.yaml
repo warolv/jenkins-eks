@@ -1,0 +1,43 @@
+ApiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: eks-ci-cd
+  region: us-east-1
+vpc:
+  subnets:
+    private:
+      us-east-1a:
+        id: "subnet-private-id1"
+      us-east-1b:
+        id: "subnet-private-id2"
+    public:
+      us-east-1a:
+        id: "subnet-public-id1"
+      us-east-1b:
+        id: "subnet-public-id2"
+nodeGroups:
+  - name: ng-on-demand
+    instanceType: t3.large
+    desiredCapacity: 1
+    privateNetworking: true
+    labels:
+      instance-type: on-demand
+    availabilityZones: ["us-east-1a", "us-east-1b"]
+  - name: ng-spot
+    desiredCapacity: 0
+    minSize: 0
+    maxSize: 10
+    privateNetworking: true
+    instancesDistribution:
+      instanceTypes: ["m5.large", "m4.large", "t3.large", "m5d.large", "m5ad.large","t3a.large"]
+      onDemandBaseCapacity: 0
+      onDemandPercentageAboveBaseCapacity: 0
+      spotInstancePools: 6
+    tags:
+      k8s.io/cluster-autoscaler/node-template/label/instance-type: spot
+    availabilityZones: ["us-east-1a", "us-east-1b"]
+    labels:
+      instance-type: spot
+    iam:
+      withAddonPolicies:
+        autoScaler: true
