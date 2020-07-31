@@ -3,10 +3,14 @@
 ![ci-cd-future](images/1.png)
 
 In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co of creating a CI/CD on Kubernetes (AWS EKS) and using the Jenkins and spot instances as worker nodes of the cluster.
-This tutorial is a series of posts that will consist of two major parts:
 
+### Building the CI/CD of the Future published posts:
 
-## How to Create an EKS cluster on AWS
+* Introduction
+* [Creating the VPC for EKS cluster](vpc.md)
+* [Creating the EKS cluster](https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-vpc-for-eks-cluster-a69b085441d1)
+
+## How to Create an EKS cluster on AWS topics
 
 * How to create VPC on AWS for your cluster using the best practices
 * The architecture of the EKS cluster, how to create an EKS cluster based on created VPC, how to make it highly available and fault-tolerant, how to use spot instances as worker nodes of the cluster
@@ -16,7 +20,7 @@ This tutorial is a series of posts that will consist of two major parts:
 * Create a DNS record with route53 which points to Ingress entry point
 * How to install and configure 'cert-manager' for the EKS cluster which uses CertManager and Let's Encrypt certificates
 
-## How to install and configure Jenkins to your EKS cluster
+## How to install and configure Jenkins to your EKS cluster topics
 
 * How to install Jenkins using helm
 * How to attach the persistent volume to Jenkins master
@@ -115,6 +119,13 @@ https://cert-manager.io/docs/
 * Kubernetes plugin will be used to configure and use Jenkins dynamic agents on k8s
 
 To find and understand in detail what you need to integrate Vault into Jenkins, read my post: https://codeburst.io/read-vaults-secrets-from-jenkin-s-declarative-pipeline-50a690659d6
+
+Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
+
+My personal blog in which I will post this tutorial also: http://igorzhivilo.com
+
+This post on my medium account: https://medium.com/@warolv/build-ci-cd-of-the-future-with-kubernetes-aws-eks-and-jenkins-84b744f26949
+
 
 
 
