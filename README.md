@@ -8,7 +8,10 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 
 * Introduction
 * [Creating the VPC for EKS cluster](vpc.md)
-* [Creating the EKS cluster](https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-vpc-for-eks-cluster-a69b085441d1)
+* [Creating the EKS cluster](eks.md)
+* [Adding the Cluster Autoscaler](cluster-autoscaler.md)
+* Add Ingress Nginx and Cert-Manager
+
 
 ## How to Create an EKS cluster on AWS topics
 

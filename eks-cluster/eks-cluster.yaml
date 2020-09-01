@@ -7,14 +7,14 @@ vpc:
   subnets:
     private:
       us-east-1a:
-        id: "subnet-private-id1"
+        id: "subnet-056d1dd534d2bef3b"
       us-east-1b:
-        id: "subnet-private-id2"
+        id: "subnet-0f24702b49080a6ec"
     public:
       us-east-1a:
-        id: "subnet-public-id1"
+        id: "subnet-02350f8e91e9601fb"
       us-east-1b:
-        id: "subnet-public-id2"
+        id: "subnet-0f0a01237f8603066"
 nodeGroups:
   - name: ng-on-demand
     instanceType: t3.large
