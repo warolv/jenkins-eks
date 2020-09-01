@@ -49,7 +49,9 @@ The Cluster Autoscaler requires the following IAM permissions to change the desi
 ```
 
 Save it as ‘eks-ca-asg-policy.json’
+
 Let’s apply the policy above, but first, we need to find ‘ng-spot’ node group id.
+
 In AWS account go to Services -> CloudFormation -> Stacks
 
 ![ci-cd-future](images/ca/2.png)
@@ -172,7 +174,7 @@ To use windows workflows in our cluster we can add an additional node group to e
 
 This node group also will run on spot instances and will use EC2 instances with AMI: WindowsServer2019, you can run pods(containers) with windows based images only on windows worker nodes.
 
-ou need to be careful and use the node selector to properly put your pods on correct instances.
+You need to be careful and use the node selector to properly put your pods on correct instances.
 
 If you want to understand how to run properly windows workflows on your EKS cluster, please read my article about it: https://levelup.gitconnected.com/running-workflows-on-windows-with-jenkins-pipeline-and-kubernetes-52752a89a0e7
 
