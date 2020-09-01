@@ -10,7 +10,7 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 * Creating the VPC for EKS cluster
 * [Creating the EKS cluster](eks.md)
 * [Adding the Cluster Autoscaler](cluster-autoscaler.md)
-* Add Ingress Nginx and Cert-Manager
+* [Add Ingress Nginx and Cert-Manager](ingress-cert-manager.md)
 
 ## What is Amazon VPC?
 
