@@ -78,7 +78,6 @@ You can see a service of the LoadBalancer type created, which will be the entry 
 
 ![ci-cd-future](images/ing-cm/6.png)
 
-![ci-cd-future](images/ing-cm/7.png)
 
 DNS name of created LB is: a5875a2383094446f952d4ac79051bc7–1133495909.us-east-1.elb.amazonaws.com
 
