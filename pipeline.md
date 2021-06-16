@@ -48,7 +48,7 @@ Click on ‘a separate configuration page’
 
 ### Let’s configure the most important fields:
 
-*Name:* Kubernetes
+**Name:** Kubernetes
 
 ``` bash
 kubectl get svc -n default
@@ -56,9 +56,9 @@ kubectl get svc -n default
 NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 kubernetes   ClusterIP   10.100.0.1   <none>        443/TCP   1d
 ```
-*Kubernetes URL:* https://kubernetes.default
+**Kubernetes URL:** https://kubernetes.default
 
-*Kubernetes Namespace:* jenkins (if you installed Jenkins to this namespace)
+**Kubernetes Namespace:** jenkins (if you installed Jenkins to this namespace)
 
 Credentials: click on Credentials -> add, select kind: ‘Kubernetes service account’
 
@@ -68,9 +68,9 @@ You created this service account in previous post, jenkins service account: [Ins
 
 Click ‘Test Connection’ to test connectivity with the k8s cluster, if you see some connectivity problem: validate you created service account properly.
 
-*Jenkins URL:* http://jenkins.jenkins.svc.cluster.local:8080
+**Jenkins URL:** http://jenkins.jenkins.svc.cluster.local:8080
 
-*Jenkins Tunnel:* jenkins-agent.jenkins.svc.cluster.local:50000
+**Jenkins Tunnel:** jenkins-agent.jenkins.svc.cluster.local:50000
 
 ``` bash
 kubectl get svc -n jenkins
@@ -84,7 +84,7 @@ Be careful with those two fields, validate you have a correct domain name for je
 
 If those fields misconfigured you will have multiple errors when running the pipeline, you can run ’kubectl logs/describe’ on the running pod and see the exact problem. In my case, I misconfigured *Jenkins Tunnel* and had multiple errors in JNLP agent which wasn’t able to connect to Jenkins through the tunnel because the service name I used for Jenkins Tunnel wasn’t correct.
 
-*You can use defaults for the rest.*
+**You can use defaults for the rest.**
 
 ## Create a pipeline to test the integration of Jenkins with Kubernetes cluster
 
@@ -132,7 +132,7 @@ podTemplate(label: 'mypod', nodeSelector: 'instance-type: spot', containers: [
 }
 ```
 
-* In the console output, you will see something similar to that *
+**In the console output, you will see something similar to that**
 
 ``` bash
 [Pipeline] Start of Pipeline
