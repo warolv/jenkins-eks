@@ -12,6 +12,7 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 * [Adding the Cluster Autoscaler](cluster-autoscaler.md)
 * [Add Ingress Nginx and Cert-Manager](ingress-cert-manager.md)
 * [Install and configure Jenkins](jenkins.md)
+* [Create your first pipeline](pipeline.md)
 
 
 ## How to Create an EKS cluster on AWS topics
