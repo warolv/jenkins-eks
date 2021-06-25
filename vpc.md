@@ -140,6 +140,6 @@ In AWS account go to Services -> CloudFormation -> Stacks, you must see
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
-My personal blog in which I will post this tutorial also: http://igorzhivilo.com
+My personal blog in which I will post this tutorial also: https://igorzhivilo.com
 
 This post on my medium account: https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-vpc-for-eks-cluster-a69b085441d1

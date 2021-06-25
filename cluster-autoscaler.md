@@ -184,7 +184,7 @@ In the next post, I will explain how to install and configure â€˜Ingress Nginxâ€
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
-My personal blog in which I will post this tutorial also: http://igorzhivilo.com
+My personal blog in which I will post this tutorial also: https://igorzhivilo.com
 
 This post on my medium account: https://medium.com/swlh/building-the-ci-cd-of-the-future-adding-the-cluster-autoscaler-478ccd57d61d
 

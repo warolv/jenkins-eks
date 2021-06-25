@@ -176,7 +176,7 @@ Next post I will start with an explanation of how to install Cluster Autoscaler 
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
-My personal blog in which I will post this tutorial also: http://igorzhivilo.com
+My personal blog in which I will post this tutorial also: https://igorzhivilo.com
 
 This post on my medium account: https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-eks-cluster-e4cce4eb3500
 

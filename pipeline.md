@@ -234,6 +234,6 @@ Thank you for reading, it was a great journey and I hope you enjoyed it.
 
 Please follow me on Twitter (@warolv)
 
-My personal blog in which I will post this tutorial also: http://igorzhivilo.com
+My personal blog in which I will post this tutorial also: https://igorzhivilo.com
 
 This post on my medium account: https://warolv.medium.com/building-the-ci-cd-of-the-future-create-your-first-pipeline-in-jenkins-a10ab0baa95f

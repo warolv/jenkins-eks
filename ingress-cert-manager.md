@@ -323,6 +323,6 @@ In this post, I explained how to install and configure NGINX Ingress for your EK
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
-My personal blog in which I will post this tutorial also: http://igorzhivilo.com
+My personal blog in which I will post this tutorial also: https://igorzhivilo.com
 
 This post on my medium account: https://medium.com/@warolv/building-the-ci-cd-of-the-future-nginx-ingress-cert-manager-945f3dc6b12e
